@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+}
+.amenamec{
+    margin: 0px 174.2px;    
+    padding: 0px 15px;
+    max-width: 1170px;
+    margin: auto;
+}
+header{
+    display: grid;
+    grid-template-columns: auto;
+}
+.head-logo img{
+    width: 100%;
+}
+.head-menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-top: -6px;
+}
+.head-menu div{
+    text-align: center;
+     border: 1px solid #005588;
+     background-color: #006699; 
+     padding: 15px; 
+     color: black; 
+}
+.head-menu a{
+    color: white;
+    width: 100%;
+}
+.head-menu div:hover{
+    background-color: #0099FF;
+}
+.head-menu div:hover a{
+    color: black;
+}
+.home-logo{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.contact-logo{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+@media(max-width: 770px){
+    .head-menu{
+        grid-template-columns: auto;
+    }
+    .home-logo{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius : 0px;
+    }
+    .contact-logo{
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-top-right-radius: 0px;
+
+    }
+}

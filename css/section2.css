@@ -1,0 +1,30 @@
+
+.s2{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-top: 60px;
+	grid-column-gap: 30px;
+	margin-bottom: 50px;
+}
+hr{
+	color: white;
+}
+footer{
+	margin-bottom: 10px;
+}
+@media(max-width: 990px){
+	.s2{
+		grid-template-columns: auto;
+	}
+}
+@media(max-width: 1200px){
+	.
+    .amenamec{
+        width: 90%;
+    }
+}
+@media(max-width: 770px){
+    .amenamec{
+        width: 100%;
+    }
+}
